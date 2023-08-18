@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+  /*display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.posts-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.homepage-post-title {
+  height: 75px;
+  overflow: hidden;
+}
+.homepage-post-title > div {
+  font-weight: bolder;
+}
+.homepage-post-text {
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.full-post-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.full-post-text {
+  width: 60vw;
+}
+
+.full-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.login {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form,
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.full-post-byline {
+  display: flex;
+  justify-content: space-between;
+  width: 68vw;
+  padding: 10px;
+}
+
+.full-post-author-span {
+  font-size: 14px;
+}
+
+.full-post-edit-btn-cont {
+  width: 68vw;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.Comment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-danger.delete-comment-btn {
+  font-size: 14px;
+}
+
+.full-post-comments {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.post-form-textarea {
+  width: 60vw;
+  height: 40vh;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  padding: 10px;
+}
+
+.modal-footer.delete-modal-btn-cont {
+  display: flex;
+  gap: 20px;
+}
+
+.app-cms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.commenter {
+  display: flex;
+  justify-content: flex-start;
+  font-size: smaller;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.comment-date {
+  font-size: smaller;
+}
+
+.comment-text {
+  width: 25vw;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 600px) {
+  .app-cms {
+    margin-top: 20px;
+  }
+  .posts-grid {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .full-post-text {
+    width: 90vw;
+  }
+  .full-post-byline {
+    width: 90vw;
+    gap: 20vw;
+  }
+  .comment-text {
+    width: 90vw;
+  }
+  textarea.form-control {
+    width: 90vw;
+  }
+  .full-post-edit-btn-cont {
+    width: 90vw;
+  }
+
+  .Comment {
+    flex-direction: column;
+  }
+  .login {
+    width: 90vw;
+  }
+  .navbar-collapse.in {
+    display: block !important;
+}
+}

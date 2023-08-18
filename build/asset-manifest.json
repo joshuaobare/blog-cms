@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/blog-api/cms/static/css/main.e15a7785.css",
+    "main.js": "/blog-api/cms/static/js/main.cfeed60e.js",
+    "index.html": "/blog-api/cms/index.html",
+    "main.e15a7785.css.map": "/blog-api/cms/static/css/main.e15a7785.css.map",
+    "main.cfeed60e.js.map": "/blog-api/cms/static/js/main.cfeed60e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e15a7785.css",
+    "static/js/main.cfeed60e.js"
+  ]
+}
